@@ -20,7 +20,7 @@ Propulse is a user-friendly landing page template with NextJS and TailwindCSS. I
 
 ## Demo
 
-Check out the [Demo](https://propulse-nclex.vercel.app/), hosted on Vercel.
+Check out the [Demo](https://propulse-nursing.vercel.app/), hosted on Vercel.
 
 ## Commands
 
