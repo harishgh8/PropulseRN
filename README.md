@@ -1,5 +1,5 @@
 <h1 align="center">
-  Propulse - A landing page template 🚀
+  EG - A landing page template 🚀
 </h1>
 
 Propulse is a user-friendly landing page template with NextJS and TailwindCSS. It's easy to customize, allowing you to create a minimalistic site that fits your style using its versatile components.
