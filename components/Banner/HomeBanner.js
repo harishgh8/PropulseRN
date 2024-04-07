@@ -14,16 +14,19 @@ export const HomeBanner = () => {
             <SectionContainer className="page-banner--inner-container wrap wrap-px z-10">
                 <MotionBTTContainer transition={{ delay: 0.4, duration: 0.5 }}>
                     <PageTitle className="text-center mx-auto" type="heavy">
-                        Welcome to Propulse Next Gen learning
+                        Launch Your RN Career in Canada
                     </PageTitle>
                 </MotionBTTContainer>
                 {/* Appear Third */}
                 <MotionBTTContainer transition={{ delay: 0.6, duration: 0.5 }}>
                     <Content className="text-center" alignment="center">
                         <p>
-                            Unlock Your Path to career in Nursing with ProPulse
-                            – Your Gateway to Next Generation NCLEX Success!,
-                            and new beginning.{" "}
+                            Are you a registered nurse from India looking to
+                            pursue a rewarding career in Canada? Propulse Next
+                            Gen Learning is your one-stop solution for a
+                            seamless transition. We provide comprehensive
+                            support to help you immigrate, obtain your Canadian
+                            nursing license, and land your dream job.
                         </p>
                     </Content>
                     <div className="mt-6 mb-16 text-center">
@@ -32,14 +35,14 @@ export const HomeBanner = () => {
                                 href="#features"
                                 className="btn btn--tertiary"
                             >
-                                Features
+                                Our Services
                             </Button>
                         </ButtonGroup>
 
                         <ButtonGroup className="hidden md:block mt-2">
                             <Link href="/Enroll">
                                 <div className="btn btn--secondary ml-4 text-white">
-                                    NG NCLEX
+                                    Enroll Now
                                     <Icon icon="material-symbols:arrow-forward-rounded" />
                                 </div>
                             </Link>

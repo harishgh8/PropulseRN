@@ -6,33 +6,33 @@ import { v4 as uuid } from "uuid";
 const ContentImageData = [
     {
         id: uuid(),
-        title: "Comprehensive Curriculum",
+        title: "Expert Support",
         content:
-            "Dive deep into a meticulously crafted curriculum covering all aspects of the Next Generation NCLEX exam.",
+            "Our team of immigration specialists and registered nurses understand the unique challenges faced by international nurses.",
         align: "right",
         image: "/features1.jpg"
     },
     {
         id: uuid(),
-        title: "Expert Instructors",
+        title: "Streamlined Process",
         content:
-            "Learn from seasoned nursing professionals dedicated to guiding you through every step of your journey.",
+            "We guide you step-by-step, ensuring a smooth and efficient journey towards your Canadian RN career.",
         align: "left",
         image: "/features2.jpg"
     },
     {
         id: uuid(),
-        title: "Interactive Learning",
+        title: "Personalized Mentorship",
         content:
-            "Engage in dynamic, interactive sessions that make studying enjoyable and effective.",
+            "We understand each of us are different, hence we tailor our services to your individual needs and aspirations.",
         align: "right",
         image: "/features3.jpg"
     },
     {
         id: uuid(),
-        title: "Personalized Support",
+        title: "Success-Oriented",
         content:
-            "Benefit from one-on-one mentoring sessions, ensuring you are on the right track to success.",
+            "Our goal is to see you work as Canadian RN! We provide ongoing support and guidance throughout your transition.",
         align: "left",
         image: "/features4.jpg"
     }

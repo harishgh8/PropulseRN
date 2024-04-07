@@ -23,7 +23,7 @@ export default function Home() {
     return (
         <Layout className="">
             <SEO
-                title="ProPulse Nursing- Propelling Your Nursing Career Forward.🚀"
+                title="Propulse Next Gen Learning: Launch Your RN Career in Canada.🚀"
                 description="Propelling aspiring nurses to success through comprehensive and accelerated NCLEX preparation."
             />
             <div className="main-wrapper bg-[#F3F5F8] relative z-10 pb-20 pt-20 ">
@@ -31,41 +31,13 @@ export default function Home() {
                 <HomeBanner />
                 {/* Components Container */}
                 <SectionContainer className="components--container wrap wrap-px grid gap-8 sm:gap-24">
-                    {/* Features */}
-                    <MotionBTTContainer
-                        transition={{ delay: 0.2, duration: 0.5 }}
-                    >
-                        <SectionContainer id="features" className="features">
-                            <BadgeGroup alignment="center">
-                                <BadgeMessage>Features</BadgeMessage>
-                            </BadgeGroup>
-                            <PageTitle
-                                className="text-center mx-auto"
-                                type="default"
-                            >
-                                Why ProPulse?
-                            </PageTitle>
-                            <Content className="text-center" alignment="center">
-                                <p>
-                                    At ProPulse Nursing Prep, we understand the
-                                    importance of achieving success in your
-                                    nursing career. Our tailored Next Generation
-                                    NCLEX preparation program, coupled with
-                                    personalized mentoring, is designed to
-                                    propel you toward triumph. Here is what sets
-                                    us apart:
-                                </p>
-                            </Content>
-                            <ContentImage />
-                        </SectionContainer>
-                    </MotionBTTContainer>
                     {/* Card Container Tabs */}
                     <MotionBTTContainer
                         transition={{ delay: 0.2, duration: 0.5 }}
                     >
                         <SectionContainer className="feature-tabs">
                             <BadgeGroup alignment="center">
-                                <BadgeMessage>More Features</BadgeMessage>
+                                <BadgeMessage>Our Services</BadgeMessage>
                                 <BadgeIcon icon="twemoji:waving-hand" />
                             </BadgeGroup>
                             <PageTitle
@@ -76,12 +48,17 @@ export default function Home() {
                             </PageTitle>
                             <Content className="text-center" alignment="center">
                                 <p>
-                                    Our comprehensive Next Generation NCLEX
-                                    course is designed to propel you to the next
-                                    level of your nursing journey. We are fully
-                                    committed to mentor you to achieve this
-                                    goal. We will work with you as a team
-                                    towards this common goal.
+                                    We offer a complete RN to RN transition
+                                    package. We'll guide you through the entire
+                                    process, from navigating immigration
+                                    applications and paperwork to ensuring your
+                                    application reaches the appropriate
+                                    regulatory bodies in Canada. We'll also
+                                    provide mentorship to help you ace the
+                                    NCLEX-RN exam and connect you with top
+                                    healthcare employers seeking qualified
+                                    nurses. Let us take the stress out of your
+                                    Canadian RN journey!
                                 </p>
                             </Content>
                             <CardGroup className="grid scroll-m-24 gap-8 grid-cols-1 max-w-4xl mx-auto mt-24 md:grid-cols-2">
@@ -92,20 +69,26 @@ export default function Home() {
                                             alt="Customizable Layouts image used."
                                         />
                                         <CardHeader className="!text-black !text-2xl !font-bold">
-                                            Live Sessions
+                                            Regulatory Body Applications
                                         </CardHeader>
                                         <p>
-                                            Get taught by experts and clear your
-                                            doubts in real-time through live
-                                            question and answer sessions
+                                            We guide you through the application
+                                            process for various regulatory
+                                            bodies across Canada, such as the
+                                            Canadian Nurses Association (CNA)
+                                            and the National Nursing Assessment
+                                            Service (NNAS).
                                         </p>
                                         <CardHeader className="!text-black !text-2xl !font-bold">
-                                            Practice Exams
+                                            Immigration Guidance
                                         </CardHeader>
                                         <p>
-                                            Simulate the real exam experience
-                                            with our extensive collection of
-                                            practice exams.
+                                            We simplify the immigration process,
+                                            assisting with applications,
+                                            paperwork, and navigating visa
+                                            requirements, including those for
+                                            Express Entry and Provincial Nominee
+                                            Programs.
                                         </p>
                                     </CardBody>
                                 </Card>
@@ -117,27 +100,58 @@ export default function Home() {
                                         />
 
                                         <CardHeader className="!text-black !text-2xl !font-bold">
-                                            Study Resources
+                                            Exam Mentorship
                                         </CardHeader>
                                         <p>
-                                            Access a wealth of study materials,
-                                            including notes, flashcards, and
-                                            more.
+                                            Our experienced team provides
+                                            personalized mentorship and
+                                            resources to help you excel on the
+                                            NCLEX-RN exam.
                                         </p>
                                         <CardHeader className="!text-black !text-2xl !font-bold">
-                                            Mentoring
+                                            Job Placement Support
                                         </CardHeader>
                                         <p>
-                                            Receive personalized mentoring from
-                                            experienced professionals who have
-                                            conquered the Next Generation NCLEX
-                                            journey.
+                                            We leverage our extensive network to
+                                            connect you with top healthcare
+                                            employers seeking qualified nurses.
                                         </p>
                                     </CardBody>
                                 </Card>
                             </CardGroup>
                         </SectionContainer>
                     </MotionBTTContainer>
+                    {/* Why choose us */}
+                    <MotionBTTContainer
+                        transition={{ delay: 0.2, duration: 0.5 }}
+                    >
+                        <SectionContainer id="features" className="features">
+                            <BadgeGroup alignment="center">
+                                <BadgeMessage>Our Services</BadgeMessage>
+                            </BadgeGroup>
+
+                            <PageTitle
+                                className="text-center mx-auto"
+                                type="default"
+                            >
+                                Why Choose us?{" "}
+                            </PageTitle>
+                            <Content className="text-center" alignment="center">
+                                <p>
+                                    Our commitment : Indian RN to Canadian RN.
+                                    We're your one-stop shop for a successful RN
+                                    career in Canada. Our team of immigration
+                                    specialists and registered nurses provides
+                                    expert guidance, streamlining the entire
+                                    process. Our goal is your success, and we'll
+                                    be there every step of the way to propel
+                                    your nursing career forward.
+                                </p>
+                            </Content>
+                            <ContentImage />
+                        </SectionContainer>
+                    </MotionBTTContainer>
+
                     {/* Testimonials */}
                     <MotionBTTContainer
                         transition={{ delay: 0.2, duration: 0.5 }}
