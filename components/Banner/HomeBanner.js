@@ -22,11 +22,11 @@ export const HomeBanner = () => {
                     <Content className="text-center" alignment="center">
                         <p>
                             Are you a registered nurse from India looking to
-                            pursue a rewarding career in Canada? Propulse Next
-                            Gen Learning is your one-stop solution for a
-                            seamless transition. We provide comprehensive
-                            support to help you immigrate, obtain your Canadian
-                            nursing license, and land your dream job.
+                            pursue a rewarding career in Canada? Propulse RN is
+                            your one-stop solution for a seamless transition. We
+                            provide comprehensive support to help you immigrate,
+                            obtain your Canadian nursing license, and land your
+                            dream job.
                         </p>
                     </Content>
                     <div className="mt-6 mb-16 text-center">

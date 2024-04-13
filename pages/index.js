@@ -23,7 +23,7 @@ export default function Home() {
     return (
         <Layout className="">
             <SEO
-                title="Propulse Next Gen Learning: Launch Your RN Career in Canada.🚀"
+                title="Propulse RN: Launch Your RN Career in Canada.🚀"
                 description="Propelling aspiring nurses to success through comprehensive and accelerated NCLEX preparation."
             />
             <div className="main-wrapper bg-[#F3F5F8] relative z-10 pb-20 pt-20 ">
@@ -49,11 +49,11 @@ export default function Home() {
                             <Content className="text-center" alignment="center">
                                 <p>
                                     We offer a complete RN to RN transition
-                                    package. We'll guide you through the entire
-                                    process, from navigating immigration
+                                    package. We will guide you through the
+                                    entire process, from navigating immigration
                                     applications and paperwork to ensuring your
                                     application reaches the appropriate
-                                    regulatory bodies in Canada. We'll also
+                                    regulatory bodies in Canada. We will also
                                     provide mentorship to help you ace the
                                     NCLEX-RN exam and connect you with top
                                     healthcare employers seeking qualified
@@ -139,13 +139,13 @@ export default function Home() {
                             <Content className="text-center" alignment="center">
                                 <p>
                                     Our commitment : Indian RN to Canadian RN.
-                                    We're your one-stop shop for a successful RN
-                                    career in Canada. Our team of immigration
+                                    We are your one-stop shop for a successful
+                                    RN career in Canada. Our team of immigration
                                     specialists and registered nurses provides
                                     expert guidance, streamlining the entire
-                                    process. Our goal is your success, and we'll
-                                    be there every step of the way to propel
-                                    your nursing career forward.
+                                    process. Our goal is your success, and we
+                                    will be there every step of the way to
+                                    propel your nursing career forward.
                                 </p>
                             </Content>
                             <ContentImage />
