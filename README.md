@@ -1,23 +1,3 @@
-<h1 align="center">
-  EG - A landing page template 🚀
-</h1>
-
-Propulse is a user-friendly landing page template with NextJS and TailwindCSS. It's easy to customize, allowing you to create a minimalistic site that fits your style using its versatile components.
-
-<hr>
-
-![propulse Mockup](/public/propulseCover.png)
-
-## Key Features:
-
--   Minimal styling (make it your own!)
--   Accessible, semantic HTML markup
--   Blazingly Fast
--   100/100 Lighthouse performance
--   Responsive & SEO-friendly with canonical URLs, OpenGraph data and Meta tags.
--   Sitemap support
--   Made with NextJS and TailwindCSS
-
 ## Demo
 
 Check out the [Demo](https://propulse-nursing.vercel.app/), hosted on Vercel.
