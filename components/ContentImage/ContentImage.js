@@ -100,7 +100,7 @@ export const ContentImage = () => {
                                 : "md:pl-16 lg:pl-24 xl:pl-32  mr-auto"
                         } my-auto content text-black/60`}
                     >
-                        <h3 className="mb-6 h4 md:h3 font-semibold text-black">
+                        <h3 className="mb-6 h4 md:h3 font-semibold text-green-800">
                             {item.title}
                         </h3>
                         <p>{item.content}</p>

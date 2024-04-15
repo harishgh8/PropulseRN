@@ -36,7 +36,7 @@ export const Footer = () => {
         <footer id="footer" className="bg-white">
             {/* Footer Links */}
             <SectionContainer className="footer--container wrap wrap-px relative z-10">
-                <div className="footer--content-container py-16">
+                <div className="footer--content-container py-8">
                     <div className="footer-links mb-12 grid grid-cols-2 gap-8 md:mb-16 md:grid-cols-8 lg:grid-cols-12">
                         <div className="col-span-6">
                             <div className="footer--logo grid gap-4">

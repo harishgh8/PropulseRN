@@ -37,7 +37,7 @@ export default function Home() {
                     >
                         <SectionContainer id="features" className="features">
                             <PageTitle
-                                className="text-center mx-auto"
+                                className="text-center mx-auto lg:text-green-800"
                                 type="default"
                             >
                                 Why Chitosan?{" "}

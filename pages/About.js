@@ -26,7 +26,7 @@ export default function About() {
                             transition={{ delay: 0.4, duration: 0.5 }}
                         >
                             <PageTitle
-                                className="text-center mx-auto"
+                                className="text-center mx-auto text-green-800"
                                 type="heavy"
                             >
                                 Welcome to ecoGenie Biotech
@@ -152,8 +152,8 @@ export default function About() {
                                                     Startup India
                                                 </CardHeader> */}
                                                 <p className="text-sm">
-                                                    Mentorship from Wadhwani
-                                                    Foundation
+                                                    Awarded ELEVATE 2023 grants
+                                                    from startup karnataka
                                                 </p>
                                             </CardBody>
                                         </Card>

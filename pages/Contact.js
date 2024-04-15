@@ -5,7 +5,13 @@ import { PageTitle } from "@components/Title";
 import { SectionContainer } from "@components/Section";
 import { motion } from "framer-motion";
 import { MotionBTTContainer, MotionInfiniteImage } from "@components/Motion";
-
+import {
+    CardBody,
+    CardGroup,
+    CardHeader,
+    CardImage,
+    Card
+} from "@components/Card";
 export default function Contact() {
     const form = useRef();
     const [messageSent, setMessageSent] = useState(false);
@@ -50,93 +56,218 @@ export default function Contact() {
     };
     return (
         <Layout className="">
-            <div className="main-wrapper bg-[#F3F5F8] relative z-10 pb-20 pt-20 ">
-                <SectionContainer className="components--container wrap wrap-px grid gap-8 sm:gap-24">
-                    <MotionBTTContainer
-                        transition={{ delay: 0.2, duration: 0.5 }}
-                    >
-                        <SectionContainer id="contactus" className="features">
-                            <span className="max-w-[800px] md:w-[800px] flex flex-col justify-top pt-20">
-                                <div className="w-full md:w-1/2 pb-20 sm:pb-0 sm:pl-20">
-                                    <h1 className="text-3xl font-bold mb-4 sm:text-left text-cyan-500">
-                                        Send us message
-                                    </h1>
-
-                                    <form
-                                        ref={form}
-                                        onSubmit={sendEmail}
-                                        className="space-y-4 "
-                                    >
-                                        <div className="border rounded-md sm:w-[600px]">
-                                            <input
-                                                required
-                                                name="user_name"
-                                                className="p-3 flex w-full rounded-md text-black"
-                                                type="text"
-                                                placeholder="Enter your Name"
-                                            />
-                                        </div>
-                                        <div className="border rounded-md sm:w-[600px]">
-                                            <input
-                                                required
-                                                name="user_phoneNumber"
-                                                className="p-3 flex w-full rounded-md text-black"
-                                                type="number"
-                                                placeholder="Phone Number"
-                                            />
-                                        </div>
-                                        <div className="border rounded-md sm:w-[600px]">
-                                            <input
-                                                name="user_email"
-                                                className="p-3 flex w-full rounded-md text-black"
-                                                type="email"
-                                                placeholder="Enter Email"
-                                            />
-                                        </div>
-                                        <div className="sm:w-[600px]">
-                                            <textarea
-                                                required
-                                                className="w-full border p-2 rounded-md text-black"
-                                                rows="6"
-                                                placeholder="Send us a message"
-                                                name="message"
-                                            ></textarea>
-                                        </div>
-                                        <div className="flex justify-center sm:justify-start">
-                                            <motion.button
-                                                whileHover={{ scale: 1.2 }}
-                                                onHoverStart={(e) => {}}
-                                                onHoverEnd={(e) => {}}
-                                                whileTap={{ scale: 0.9 }}
-                                                className={`bg-cyan-500 text-white py-2 px-4 rounded-md font-medium ${
-                                                    messageSent
-                                                        ? "animate-pulse"
-                                                        : ""
-                                                }`}
-                                                type="submit"
-                                                value="Send"
-                                                disabled={messageSent}
-                                            >
-                                                {messageSent
-                                                    ? "Message Sent"
-                                                    : "Send Message"}
-                                            </motion.button>
-                                        </div>
-                                    </form>
-                                    {messageSent && (
-                                        <div>
-                                            <div className="bg-cyan-500 text-white font-bold rounded-md px-4 py-2">
-                                                Thank you, we will get back to
-                                                you soon.
+            <div className="main-wrapper relative z-10 pb-20 pt-20 bg-[#F3F5F8]">
+                <CardGroup className="grid  gap-8 grid-cols-1 max-w-6xl mx-auto mt-12 md:grid-cols-2">
+                    <Card className="col-span-1 text-primary-900">
+                        <CardBody className="w-full  p-2">
+                            <CardHeader className="!text-black !text-lg !font-bold">
+                                <div className="max-w-[600px] md:w-full flex flex-col justify-center  sm:pb-0">
+                                    <div className="flex flex-col">
+                                        <div className="flex justify-center sm:justify-start sm:py-3">
+                                            <div className="flex flex-col">
+                                                <p className="text-green-800 font-bold px-2 sm:text-left text-1xl  ">
+                                                    Registered office
+                                                </p>
+                                                <h6 className="sm:text-left text-primary-900 p-2">
+                                                    {" "}
+                                                    No. 3, Manjunatha complex,
+                                                    <br /> 1st floor, SSA Road,{" "}
+                                                    <br /> 4th Main Road,
+                                                    Hebbal,
+                                                    <br /> Bengaluru - 560024
+                                                    <br /> Karnataka, India
+                                                </h6>
                                             </div>
                                         </div>
-                                    )}
+                                        <div className="flex justify-center sm:justify-start sm:py-3">
+                                            <div className="flex flex-col">
+                                                <p className="text-green-800 font-bold px-2 sm:text-left text-1xl  ">
+                                                    Mail us
+                                                </p>
+                                                <h6 className="sm:text-left p-2 text-primary-900">
+                                                    {" "}
+                                                    info@ecogeniebiotech.com
+                                                </h6>
+                                            </div>
+                                        </div>
+                                        <div className="flex justify-center sm:justify-start sm:py-3">
+                                            <div className="flex flex-col">
+                                                <p className="text-green-800 font-bold px-2 sm:text-left text-1xl ">
+                                                    Call us
+                                                </p>
+                                                <h6 className="sm:text-left p-2 text-primary-900">
+                                                    {" "}
+                                                    +917676733634
+                                                </h6>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
-                            </span>{" "}
-                        </SectionContainer>
-                    </MotionBTTContainer>
-                </SectionContainer>
+                            </CardHeader>
+                        </CardBody>
+                    </Card>
+                    <Card className="col-span-1 text-primary-900">
+                        <CardBody className="w-full  p-2">
+                            <div className="w-full pb-20 sm:pb-0 sm:pl-20 pt-8">
+                                <h1 className="text-2xl font-bold mb-4 sm:text-left text-green-800">
+                                    Send us message
+                                </h1>
+                                <form
+                                    ref={form}
+                                    onSubmit={sendEmail}
+                                    className="space-y-4"
+                                >
+                                    <div className="border rounded-md">
+                                        <input
+                                            required
+                                            name="user_name"
+                                            className="p-3 flex w-full rounded-md text-black"
+                                            type="text"
+                                            placeholder="Enter your Name"
+                                        />
+                                    </div>
+                                    <div className="border rounded-md">
+                                        <input
+                                            required
+                                            name="user_phoneNumber"
+                                            className="p-3 flex w-full rounded-md text-black"
+                                            type="number"
+                                            placeholder="Phone Number"
+                                        />
+                                    </div>
+                                    <div className="border rounded-md">
+                                        <input
+                                            name="user_email"
+                                            className="p-3 flex w-full rounded-md text-black"
+                                            type="email"
+                                            placeholder="Enter Email"
+                                        />
+                                    </div>
+                                    <div>
+                                        <textarea
+                                            required
+                                            className="w-full border p-2 rounded-md text-black"
+                                            rows="6"
+                                            placeholder="Send us a message"
+                                            name="message"
+                                        ></textarea>
+                                    </div>
+                                    <div className="flex justify-center sm:justify-start">
+                                        <motion.button
+                                            whileHover={{
+                                                scale: 1.2
+                                            }}
+                                            onHoverStart={(e) => {}}
+                                            onHoverEnd={(e) => {}}
+                                            whileTap={{
+                                                scale: 0.9
+                                            }}
+                                            className={`bg-green-900 text-white py-2 px-4 rounded-md font-medium ${
+                                                messageSent
+                                                    ? "animate-pulse"
+                                                    : ""
+                                            }`}
+                                            type="submit"
+                                            value="Send"
+                                            disabled={messageSent}
+                                        >
+                                            {messageSent
+                                                ? "Message Sent"
+                                                : "Send Message"}
+                                        </motion.button>
+                                    </div>
+                                </form>
+                                {messageSent && (
+                                    <div>
+                                        <div className="bg-green-600 text-white font-bold rounded-md px-4 py-2">
+                                            Thank you, we will get back to you
+                                            soon.
+                                        </div>
+                                    </div>
+                                )}
+                            </div>
+                        </CardBody>
+                    </Card>
+                </CardGroup>
             </div>
+            {/* <div className="col-span-1">
+                        <span className="max-w-[800px] md:w-[800px] flex flex-col justify-top pt-20">
+                            <div className="w-full pb-20 sm:pb-0 sm:pl-20">
+                                <h1 className="text-3xl font-bold mb-4 sm:text-left text-cyan-500">
+                                    Send us message
+                                </h1>
+                                <form
+                                    ref={form}
+                                    onSubmit={sendEmail}
+                                    className="space-y-4"
+                                >
+                                    <div className="border rounded-md">
+                                        <input
+                                            required
+                                            name="user_name"
+                                            className="p-3 flex w-full rounded-md text-black"
+                                            type="text"
+                                            placeholder="Enter your Name"
+                                        />
+                                    </div>
+                                    <div className="border rounded-md">
+                                        <input
+                                            required
+                                            name="user_phoneNumber"
+                                            className="p-3 flex w-full rounded-md text-black"
+                                            type="number"
+                                            placeholder="Phone Number"
+                                        />
+                                    </div>
+                                    <div className="border rounded-md">
+                                        <input
+                                            name="user_email"
+                                            className="p-3 flex w-full rounded-md text-black"
+                                            type="email"
+                                            placeholder="Enter Email"
+                                        />
+                                    </div>
+                                    <div>
+                                        <textarea
+                                            required
+                                            className="w-full border p-2 rounded-md text-black"
+                                            rows="6"
+                                            placeholder="Send us a message"
+                                            name="message"
+                                        ></textarea>
+                                    </div>
+                                    <div className="flex justify-center sm:justify-start">
+                                        <motion.button
+                                            whileHover={{ scale: 1.2 }}
+                                            onHoverStart={(e) => {}}
+                                            onHoverEnd={(e) => {}}
+                                            whileTap={{ scale: 0.9 }}
+                                            className={`bg-cyan-500 text-white py-2 px-4 rounded-md font-medium ${
+                                                messageSent
+                                                    ? "animate-pulse"
+                                                    : ""
+                                            }`}
+                                            type="submit"
+                                            value="Send"
+                                            disabled={messageSent}
+                                        >
+                                            {messageSent
+                                                ? "Message Sent"
+                                                : "Send Message"}
+                                        </motion.button>
+                                    </div>
+                                </form>
+                                {messageSent && (
+                                    <div>
+                                        <div className="bg-cyan-500 text-white font-bold rounded-md px-4 py-2">
+                                            Thank you, we will get back to you
+                                            soon.
+                                        </div>
+                                    </div>
+                                )}
+                            </div>
+                        </span>{" "}
+                    </div> */}
         </Layout>
     );
 }

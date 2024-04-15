@@ -13,7 +13,10 @@ export const HomeBanner = () => {
         <SectionContainer className="page-banner--container py-16">
             <SectionContainer className="page-banner--inner-container wrap wrap-px z-10">
                 <MotionBTTContainer transition={{ delay: 0.4, duration: 0.5 }}>
-                    <PageTitle className="text-center mx-auto" type="heavy">
+                    <PageTitle
+                        className="text-center mx-auto lg:text-green-800"
+                        type="heavy"
+                    >
                         Pioneering Sustainable Agriculture with Chitosan
                         Innovations{" "}
                     </PageTitle>

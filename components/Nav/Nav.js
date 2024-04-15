@@ -43,7 +43,7 @@ export const Nav = () => {
                         {navigation.map((item) => (
                             <li
                                 key={item.name}
-                                className="header-nav--menu-item"
+                                className="header-nav--menu-item text-lg"
                             >
                                 <a
                                     key={item.name}
