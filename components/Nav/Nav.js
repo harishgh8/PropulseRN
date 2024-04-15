@@ -4,7 +4,7 @@ import { Icon } from "@iconify/react";
 import { useRouter } from "next/router";
 
 const navigation = [
-    { name: "About", to: "#about", href: "/#about" },
+    { name: "About", to: "#About", href: "/About" },
     { name: "Blog", to: "Blog", href: "/Blog" },
     { name: "Contact", to: "Contact", href: "/Contact" }
 ];
