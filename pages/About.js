@@ -57,17 +57,18 @@ export default function About() {
                                     to pave the way for a better future for our
                                     planet by offering products that minimize
                                     harm to the environment. Our motto,
-                                    "Innovating greener tomorrow," encapsulates
-                                    our dedication to sustainability and the
-                                    collaborative effort required to achieve it.
+                                    &quot;Innovating greener tomorrow,&quot;
+                                    encapsulates our dedication to
+                                    sustainability and the collaborative effort
+                                    required to achieve it.
                                 </p>
                                 <p>
                                     We understand that sustainability is a
                                     collective responsibility, shared by
                                     individuals and organizations alike. That's
-                                    why we're committed to working hand in hand
-                                    with our customers and partners to foster
-                                    positive change.
+                                    why we&apos;re committed to working hand in
+                                    hand with our customers and partners to
+                                    foster positive change.
                                 </p>
                                 <p>
                                     Central to our ethos is the belief that
@@ -84,8 +85,8 @@ export default function About() {
                                     aim to create innovative solutions that not
                                     only enhance agricultural productivity but
                                     also protect our natural resources for
-                                    future generations. Together, let's embark
-                                    on a journey towards a greener, more
+                                    future generations. Together, let&apos;s
+                                    embark on a journey towards a greener, more
                                     sustainable future. Join us at ecoGenie
                                     Biotech, where we're turning vision into
                                     reality, one eco-friendly solution at a
