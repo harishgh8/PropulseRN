@@ -14,7 +14,7 @@ import {
     CardImage,
     Card
 } from "@components/Card";
-export default function About() {
+export default function Gallery() {
     // Example blog posts data
 
     return (
@@ -39,58 +39,9 @@ export default function About() {
                             transition={{ delay: 0.6, duration: 0.5 }}
                         >
                             <Content
-                                className="text-left !text-lg"
+                                className="text-left text-lg"
                                 alignment="center"
                             >
-                                <p>
-                                    Welcome to ecoGenie Biotech, where
-                                    innovation meets sustainability in the field
-                                    of biotechnology for agriculture and
-                                    post-harvest crop management. Based in the
-                                    vibrant city of Bengaluru, India, we are
-                                    dedicated to revolutionizing the way we
-                                    interact with the environment through our
-                                    eco-friendly solutions.
-                                </p>
-                                <p>
-                                    At ecoGenie Biotech, our mission is clear:
-                                    to pave the way for a better future for our
-                                    planet by offering products that minimize
-                                    harm to the environment. Our motto,
-                                    "Innovating greener tomorrow," encapsulates
-                                    our dedication to sustainability and the
-                                    collaborative effort required to achieve it.
-                                </p>
-                                <p>
-                                    We understand that sustainability is a
-                                    collective responsibility, shared by
-                                    individuals and organizations alike. That's
-                                    why we're committed to working hand in hand
-                                    with our customers and partners to foster
-                                    positive change.
-                                </p>
-                                <p>
-                                    Central to our ethos is the belief that
-                                    every choice we make matters. From the
-                                    materials we source to our manufacturing
-                                    processes, we prioritize sustainability
-                                    every step of the way. Our products are
-                                    thoughtfully designed to be reusable,
-                                    recyclable, and compostable, ensuring they
-                                    leave a minimal footprint on the planet.
-                                </p>
-                                <p>
-                                    By harnessing the power of biotechnology, we
-                                    aim to create innovative solutions that not
-                                    only enhance agricultural productivity but
-                                    also protect our natural resources for
-                                    future generations. Together, let's embark
-                                    on a journey towards a greener, more
-                                    sustainable future. Join us at ecoGenie
-                                    Biotech, where we're turning vision into
-                                    reality, one eco-friendly solution at a
-                                    time.
-                                </p>
                                 <SectionContainer className="feature-tabs">
                                     <PageTitle
                                         className="text-center mx-auto !text-4xl"
@@ -105,9 +56,7 @@ export default function About() {
                                                     src="/startupindia.svg"
                                                     alt="Customizable Layouts image used."
                                                 />
-                                                {/* <CardHeader className="!text-black !text-lg !font-bold">
-                                                    Startup India
-                                                </CardHeader> */}
+
                                                 <p className="text-sm">
                                                     Recognized from startup
                                                     india
@@ -120,9 +69,7 @@ export default function About() {
                                                     src="/startupkar.svg"
                                                     alt="Customizable Layouts image used."
                                                 />
-                                                {/* <CardHeader className="!text-black !text-lg !font-bold">
-                                                    Startup India
-                                                </CardHeader> */}
+
                                                 <p className="text-sm">
                                                     Recognized from startup
                                                     Karnataka

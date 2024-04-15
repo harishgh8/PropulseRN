@@ -13,13 +13,15 @@ export const HomeBanner = () => {
         <SectionContainer className="page-banner--container py-16">
             <SectionContainer className="page-banner--inner-container wrap wrap-px z-10">
                 <MotionBTTContainer transition={{ delay: 0.4, duration: 0.5 }}>
-                    <PageTitle
-                        className="text-center mx-auto lg:text-green-800"
-                        type="heavy"
-                    >
-                        Pioneering Sustainable Agriculture with Chitosan
-                        Innovations{" "}
-                    </PageTitle>
+                    <div className="text-center">
+                        <PageTitle
+                            className="mx-auto bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% .. inline-block text-transparent bg-clip-text"
+                            type="heavy"
+                        >
+                            Pioneering Sustainable Agriculture with Chitosan
+                            Innovations
+                        </PageTitle>
+                    </div>
                 </MotionBTTContainer>
                 {/* Appear Third */}
                 <MotionBTTContainer transition={{ delay: 0.6, duration: 0.5 }}>

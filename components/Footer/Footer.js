@@ -37,7 +37,7 @@ export const Footer = () => {
             {/* Footer Links */}
             <SectionContainer className="footer--container wrap wrap-px relative z-10">
                 <div className="footer--content-container py-8">
-                    <div className="footer-links mb-12 grid grid-cols-2 gap-8 md:mb-16 md:grid-cols-8 lg:grid-cols-12">
+                    <div className="footer-links mb-6 grid grid-cols-2 gap-8 md:mb-6 md:grid-cols-8 lg:grid-cols-12">
                         <div className="col-span-6">
                             <div className="footer--logo grid gap-4">
                                 <Link href="/">
@@ -53,7 +53,7 @@ export const Footer = () => {
                             </div>
                         </div>
                         <div className="col-span-6">
-                            <div className="footer-menu grid grid-cols-2 md:grid-cols-8 lg:grid-cols-12">
+                            <div className="footer-menu grid grid-cols-2 md:grid-cols-8 lg:grid-cols-12 text-green-800">
                                 {DATA.map((footerLinks) => (
                                     <div
                                         key={footerLinks.title}
@@ -93,8 +93,8 @@ export const Footer = () => {
             </SectionContainer>
             {/* Footer Credits */}
             <SectionContainer className="footer-credits relative z-10">
-                <div className="wrap wrap-px py-6">
-                    <p className="my-0">
+                <div className="wrap wrap-px py-4">
+                    <p className="my-0 text-green-800">
                         © 2023 ecogenie biotech. All rights reserved
                     </p>
                 </div>

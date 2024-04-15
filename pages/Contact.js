@@ -18,7 +18,6 @@ export default function Contact() {
     const [lastFormData, setLastFormData] = useState({});
 
     const sendEmail = (e) => {
-        console.log("email");
         e.preventDefault();
 
         const formData = {
@@ -35,10 +34,10 @@ export default function Contact() {
 
         emailjs
             .sendForm(
-                "service_id9bxwt",
-                "template_yxi1pyd",
+                "service_x0p9nic",
+                "template_ljbive4",
                 form.current,
-                "5M7ABzKjZ9OqluGMU"
+                "ZCbeEpQyku_3xUQEj"
             )
             .then(
                 (result) => {
@@ -90,16 +89,14 @@ export default function Contact() {
                                                 </h6>
                                             </div>
                                         </div>
-                                        <div className="flex justify-center sm:justify-start sm:py-3">
-                                            <div className="flex flex-col">
-                                                <p className="text-green-800 font-bold px-2 sm:text-left text-1xl ">
-                                                    Call us
-                                                </p>
-                                                <h6 className="sm:text-left p-2 text-primary-900">
-                                                    {" "}
-                                                    +917676733634
-                                                </h6>
-                                            </div>
+                                        <div className="flex flex-col">
+                                            <p className="text-green-800 font-bold px-2 sm:text-left text-1xl ">
+                                                Call us
+                                            </p>
+                                            <h6 className="sm:text-left p-2 text-primary-900">
+                                                {" "}
+                                                +917676733634
+                                            </h6>
                                         </div>
                                     </div>
                                 </div>

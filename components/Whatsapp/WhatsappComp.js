@@ -12,7 +12,7 @@ import "react-whatsapp-chat-widget/index.css";
 export const WhatsappComp = () => {
     return (
         <DynamicWhatsAppWidget
-            phoneNo="+917358184356"
+            phoneNo="+917676733634"
             position="right"
             widgetWidth="300px"
             widgetWidthMobile="260px"
@@ -21,12 +21,13 @@ export const WhatsappComp = () => {
             iconSize="60"
             iconColor="white"
             iconBgColor="#25D366"
-            // headerIcon={propulseIcon2}
+            headerIcon="/logo-ecogenie.svg"
             // headerIconColor="pink"
+
             headerTxtColor="black"
-            headerBgColor="#3ec1d5"
+            headerBgColor="#bbb"
             headerIconBgColor="rgb(255 197 110 / var(--tw-bg-opacity))"
-            headerTitle="Propulse Next Gen"
+            headerTitle="ecogenie biotech"
             headerCaption="Online"
             bodyBgColor="#bbb"
             chatPersonName="Support"
@@ -36,9 +37,9 @@ export const WhatsappComp = () => {
                     <br /> We are here to help you.
                 </>
             }
-            footerBgColor="#3ec1d5"
+            footerBgColor="#bbb"
             placeholder="Type a message.."
-            btnBgColor="#319aaa"
+            btnBgColor="#25D366"
             btnTxt="Start Chat"
             btnTxtColor="black"
         />

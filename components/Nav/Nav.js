@@ -5,7 +5,8 @@ import { useRouter } from "next/router";
 
 const navigation = [
     { name: "About", to: "#About", href: "/About" },
-    { name: "Blog", to: "Blog", href: "/Blog" },
+    { name: "Products", to: "Products", href: "/Products" },
+    { name: "Gallery", to: "Gallery", href: "/Gallery" },
     { name: "Contact", to: "Contact", href: "/Contact" }
 ];
 
@@ -43,7 +44,7 @@ export const Nav = () => {
                         {navigation.map((item) => (
                             <li
                                 key={item.name}
-                                className="header-nav--menu-item text-lg"
+                                className="header-nav--menu-item text-lg "
                             >
                                 <a
                                     key={item.name}
