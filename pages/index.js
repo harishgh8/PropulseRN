@@ -55,7 +55,7 @@ export default function Home() {
                     </MotionBTTContainer>
 
                     {/* Testimonials */}
-                    <MotionBTTContainer
+                    {/* <MotionBTTContainer
                         transition={{ delay: 0.2, duration: 0.5 }}
                     >
                         <SectionContainer
@@ -72,7 +72,7 @@ export default function Home() {
                             </PageTitle>
                             <Columns />
                         </SectionContainer>
-                    </MotionBTTContainer>
+                    </MotionBTTContainer> */}
                     {/* Accordions */}
                     {/* <MotionBTTContainer
                         transition={{ delay: 0.2, duration: 0.5 }}

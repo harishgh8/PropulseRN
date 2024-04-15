@@ -6,23 +6,6 @@ import { Icon } from "@iconify/react";
 
 const DATA = [
     {
-        title: "Template",
-        items: [
-            {
-                label: "Features",
-                href: "#features"
-            },
-            {
-                label: "Testimonials",
-                href: "#testimonials"
-            },
-            {
-                label: "FAQ",
-                href: "#faq"
-            }
-        ]
-    },
-    {
         title: "Company",
         items: [
             {
@@ -30,19 +13,16 @@ const DATA = [
                 href: "https://harishg.netlify.app/",
                 target: "_blank"
             },
-            {
-                label: "Twitter",
-                href: "https://harishg.netlify.app/",
-                target: "_blank"
-            },
-            {
-                label: "Instagram",
-                href: "https://harishg.netlify.app/",
-                target: "_blank"
-            },
+
             {
                 label: "Facebook",
-                href: "https://harishg.netlify.app/",
+                href: "https://www.facebook.com/profile.php?id=100091364877101",
+                target: "_blank"
+            },
+
+            {
+                label: "Linkedin",
+                href: "https://www.linkedin.com/company/96237286/",
                 target: "_blank"
             }
         ]
@@ -115,7 +95,7 @@ export const Footer = () => {
             <SectionContainer className="footer-credits relative z-10">
                 <div className="wrap wrap-px py-6">
                     <p className="my-0">
-                        © 2023 ProPulse Nursing. All rights reserved
+                        © 2023 ecogenie biotech. All rights reserved
                     </p>
                 </div>
             </SectionContainer>
