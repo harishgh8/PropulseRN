@@ -65,10 +65,10 @@ export default function About() {
                                 <p>
                                     We understand that sustainability is a
                                     collective responsibility, shared by
-                                    individuals and organizations alike. That's
-                                    why we&apos;re committed to working hand in
-                                    hand with our customers and partners to
-                                    foster positive change.
+                                    individuals and organizations alike.
+                                    That&apos;s why we&apos;re committed to
+                                    working hand in hand with our customers and
+                                    partners to foster positive change.
                                 </p>
                                 <p>
                                     Central to our ethos is the belief that
@@ -88,8 +88,8 @@ export default function About() {
                                     future generations. Together, let&apos;s
                                     embark on a journey towards a greener, more
                                     sustainable future. Join us at ecoGenie
-                                    Biotech, where we're turning vision into
-                                    reality, one eco-friendly solution at a
+                                    Biotech, where we&apos;re turning vision
+                                    into reality, one eco-friendly solution at a
                                     time.
                                 </p>
                                 <SectionContainer className="feature-tabs">

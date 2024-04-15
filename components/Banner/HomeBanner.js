@@ -42,7 +42,7 @@ export const HomeBanner = () => {
                 <MotionBTTContainer transition={{ delay: 0.8, duration: 0.5 }}>
                     <div className="page-banner--image pt-5">
                         <Image
-                            src="/chitosan-banner.png"
+                            src="/banner.png"
                             width={1024}
                             height={680}
                             alt="Page Banner"
