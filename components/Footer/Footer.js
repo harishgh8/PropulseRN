@@ -9,12 +9,6 @@ const DATA = [
         title: "Company",
         items: [
             {
-                label: "About",
-                href: "https://harishg.netlify.app/",
-                target: "_blank"
-            },
-
-            {
                 label: "Facebook",
                 href: "https://www.facebook.com/profile.php?id=100091364877101",
                 target: "_blank"
@@ -42,7 +36,7 @@ export const Footer = () => {
                             <div className="footer--logo grid gap-4">
                                 <Link href="/">
                                     <Image
-                                        src="/logo-ecogenie.svg"
+                                        src="/ecogenie-logo.svg"
                                         alt="logo"
                                         className="h-20 w-auto"
                                         height="25"

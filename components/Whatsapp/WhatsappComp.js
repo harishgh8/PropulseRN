@@ -21,7 +21,7 @@ export const WhatsappComp = () => {
             iconSize="60"
             iconColor="white"
             iconBgColor="#25D366"
-            headerIcon="/logo-ecogenie.svg"
+            headerIcon="/ecogenie-logo.svg"
             // headerIconColor="pink"
 
             headerTxtColor="black"

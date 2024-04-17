@@ -85,6 +85,18 @@ export default function Contact() {
                                     </h6>
                                 </div>
                             </div>
+                            <div className="flex justify-center sm:justify-start sm:py-3">
+                                <div className="flex flex-col">
+                                    <p className="text-green-800 font-bold px-2 sm:text-left text-1xl  ">
+                                        For careers and internships, send us
+                                        resume
+                                    </p>
+                                    <h6 className="sm:text-left p-2 text-primary-900">
+                                        {" "}
+                                        info@ecogeniebiotech.com
+                                    </h6>
+                                </div>
+                            </div>
                             <div className="flex flex-col">
                                 <p className="text-green-800 font-bold px-2 sm:text-left text-1xl ">
                                     Call us

@@ -101,7 +101,7 @@ export default function About() {
                                     </PageTitle>
                                     <CardGroup className="grid  gap-8 grid-cols-1 max-w-2xl mx-auto mt-12 md:grid-cols-2">
                                         <Card className="col-span-1 text-primary-900">
-                                            <CardBody className="w-full  p-2">
+                                            <CardBody className="w-full  p-2 text-center">
                                                 <CardImage
                                                     src="/startupindia.svg"
                                                     alt="Customizable Layouts image used."
@@ -116,7 +116,7 @@ export default function About() {
                                             </CardBody>
                                         </Card>
                                         <Card className="col-span-1 text-primary-900">
-                                            <CardBody className="w-full  p-2">
+                                            <CardBody className="w-full  p-2 text-center">
                                                 <CardImage
                                                     src="/startupkar.svg"
                                                     alt="Customizable Layouts image used."
@@ -124,14 +124,14 @@ export default function About() {
                                                 {/* <CardHeader className="!text-black !text-lg !font-bold">
                                                     Startup India
                                                 </CardHeader> */}
-                                                <p className="text-sm">
+                                                <p className="text-sm ">
                                                     Recognized from startup
                                                     Karnataka
                                                 </p>
                                             </CardBody>
                                         </Card>
-                                        <Card className="col-span-1 text-primary-900">
-                                            <CardBody className="w-full  p-2">
+                                        <Card className="col-span-1 text-primary-900 ">
+                                            <CardBody className="w-full  p-2 text-center">
                                                 <CardImage
                                                     src="/wadwani.svg"
                                                     alt="Customizable Layouts image used."
@@ -146,7 +146,7 @@ export default function About() {
                                             </CardBody>
                                         </Card>
                                         <Card className="col-span-1 text-primary-900">
-                                            <CardBody className="w-full  p-2">
+                                            <CardBody className="w-full  p-2 text-center">
                                                 <CardImage
                                                     src="/elevate.svg"
                                                     alt="Customizable Layouts image used."
