@@ -156,7 +156,7 @@ export default function About() {
                                                 </CardHeader> */}
                                                 <p className="text-sm">
                                                     Awarded ELEVATE 2023 grants
-                                                    from startup karnataka
+                                                    from startup Karnataka
                                                 </p>
                                             </CardBody>
                                         </Card>
