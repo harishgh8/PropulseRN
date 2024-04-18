@@ -17,6 +17,19 @@ export const Nav = () => {
     const closeNav = () => {
         setIsNavOpen(false);
     };
+    // const greenColorUnderline = () => {
+    //     setIsNavOpen(false);
+    // };
+
+    const greenColorUnderline = (e) => {
+        e.currentTarget.style.textDecoration = "underline";
+        e.currentTarget.style.textDecorationColor = "green";
+    };
+
+    const removeUnderline = (e) => {
+        e.currentTarget.style.textDecoration = "none";
+    };
+
     return (
         <nav className="header-nav">
             <div className="header-nav--container">
@@ -54,6 +67,8 @@ export const Nav = () => {
                     ${router.pathname === item.href ? "active" : ""}
                   `}
                                     onClick={closeNav}
+                                    onMouseEnter={greenColorUnderline}
+                                    onMouseLeave={removeUnderline}
                                     target={item.target ? item.target : "_self"}
                                 >
                                     {item.name}
