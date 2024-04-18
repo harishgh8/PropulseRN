@@ -67,9 +67,9 @@ export default function Contact() {
                                     <h6 className="sm:text-left text-primary-900 p-2">
                                         {" "}
                                         No. 3, Manjunatha complex,
-                                        <br /> 1st floor, SSA Road, <br /> 4th
-                                        Main Road, Hebbal,
-                                        <br /> Bengaluru - 560024
+                                        <br /> 1st floor, SSA Road, 4th Main
+                                        Road, <br />
+                                        Hebbal, Bengaluru - 560024
                                         <br /> Karnataka, India
                                     </h6>
                                 </div>

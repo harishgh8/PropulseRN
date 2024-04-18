@@ -46,7 +46,7 @@ export const Footer = () => {
                                 </Link>
                             </div>
                         </div>
-                        <div className="col-span-6">
+                        <div className="col-span-3">
                             <div className="footer-menu grid grid-cols-2 md:grid-cols-8 lg:grid-cols-12 text-green-800">
                                 {DATA.map((footerLinks) => (
                                     <div
@@ -80,6 +80,22 @@ export const Footer = () => {
                                         </ul>
                                     </div>
                                 ))}
+                            </div>
+                        </div>
+                        <div className="col-span-3">
+                            <div className="flex flex-col">
+                                <p className="text-green-800 font-bold px-2 sm:text-left text-1xl  ">
+                                    Contact us{" "}
+                                </p>
+                                <h6 className="sm:text-left text-primary-900 p-2 text-sm">
+                                    {" "}
+                                    No. 3, Manjunatha complex,
+                                    <br /> 1st floor, SSA Road, 4th Main Road,
+                                    Hebbal, Bengaluru - 560024
+                                    <br /> Karnataka, India
+                                    <br /> info@ecogeniebiotech.com
+                                    <br /> +917676733634
+                                </h6>
                             </div>
                         </div>
                     </div>
