@@ -64,7 +64,7 @@ const ContentImageData = [
         id: uuid(),
         title: "Wound Healing",
         content:
-            "Chitosan-based wound dressings and scaffolds have demonstrated an 80-90% improvement in wound healing compared to conventional treatments. Chitosan&apos;s biocompatibility, antimicrobial properties, and ability to stimulate the production of collagen and other extracellular matrix components make it an ideal material for wound management. The use of chitosan-based wound care products can accelerate the healing process, reduce the risk of infection, and improve patient outcomes, making it a valuable tool in the healthcare sector.",
+            "Chitosan-based wound dressings and scaffolds have demonstrated an 80-90% improvement in wound healing compared to conventional treatments. Chitosan biocompatibility, antimicrobial properties, and ability to stimulate the production of collagen and other extracellular matrix components make it an ideal material for wound management. The use of chitosan-based wound care products can accelerate the healing process, reduce the risk of infection, and improve patient outcomes, making it a valuable tool in the healthcare sector.",
         align: "left",
         image: "/6.png"
     }
