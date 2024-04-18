@@ -35,13 +35,19 @@ export default function Home() {
                     <MotionBTTContainer
                         transition={{ delay: 0.2, duration: 0.5 }}
                     >
-                        <SectionContainer id="features" className="features">
-                            <PageTitle
-                                className="text-center mx-auto lg:text-green-800"
-                                type="default"
-                            >
-                                Why Chitosan?{" "}
-                            </PageTitle>
+                        <SectionContainer
+                            id="features"
+                            className="features pt-20 "
+                        >
+                            <div className="text-center">
+                                <PageTitle
+                                    className="mx-auto bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% .. inline-block text-transparent bg-clip-text"
+                                    type="default"
+                                >
+                                    Why Chitosan?
+                                </PageTitle>
+                            </div>
+
                             <Content className="text-center" alignment="center">
                                 <p>
                                     Chitosan, a natural biopolymer derived from
@@ -54,7 +60,85 @@ export default function Home() {
                         </SectionContainer>
                     </MotionBTTContainer>
 
-                    {/* Testimonials */}
+                    {/* Awards and recognitions */}
+                    <MotionBTTContainer
+                        transition={{ delay: 0.2, duration: 0.5 }}
+                    >
+                        <SectionContainer className="feature-tabs pt-20">
+                            <div className="text-center">
+                                <PageTitle
+                                    className="text-center mx-auto !text-4xl bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% .. inline-block text-transparent bg-clip-text"
+                                    type="heavy"
+                                >
+                                    Awards and Recognitions
+                                </PageTitle>
+                            </div>
+                            <CardGroup className="grid  gap-8 grid-cols-1 max-w-6xl mx-auto mt-12 md:grid-cols-4">
+                                <Card className="col-span-1 text-primary-900">
+                                    <CardImage
+                                        src="/startupindia.svg"
+                                        alt="Customizable Layouts image used."
+                                    />
+                                </Card>
+                                <Card className="col-span-1 text-primary-900">
+                                    <CardImage
+                                        src="/startupkar.svg"
+                                        alt="Customizable Layouts image used."
+                                    />
+                                </Card>
+                                <Card className="col-span-1 text-primary-900 ">
+                                    <CardImage
+                                        src="/wadwani.svg"
+                                        alt="Customizable Layouts image used."
+                                    />
+                                </Card>
+                                <Card className="col-span-1 text-primary-900">
+                                    <CardImage
+                                        src="/elevate.svg"
+                                        alt="Customizable Layouts image used."
+                                    />
+                                </Card>
+                            </CardGroup>
+                        </SectionContainer>
+                    </MotionBTTContainer>
+                    {/* Associations and Collaborations */}
+                    <MotionBTTContainer
+                        transition={{ delay: 0.2, duration: 0.5 }}
+                    >
+                        <SectionContainer className="feature-tabs pt-20">
+                            <div className="text-center">
+                                <PageTitle className="text-center mx-auto !text-4xl bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% .. inline-block text-transparent bg-clip-text">
+                                    Association and Collaborations
+                                </PageTitle>
+                            </div>
+                            <CardGroup className="grid  gap-8 grid-cols-1 max-w-6xl mx-auto mt-12 md:grid-cols-4 ">
+                                <Card className="col-span-1 text-primary-900 bg-white">
+                                    <CardImage
+                                        src="/1-asso.svg"
+                                        alt="Customizable Layouts image used."
+                                    />
+                                </Card>
+                                <Card className="col-span-1 text-primary-900 bg-white">
+                                    <CardImage
+                                        src="/2-asso.svg"
+                                        alt="Customizable Layouts image used."
+                                    />
+                                </Card>
+                                <Card className="col-span-1 text-primary-900 bg-white">
+                                    <CardImage
+                                        src="/3-asso.svg"
+                                        alt="Customizable Layouts image used."
+                                    />
+                                </Card>
+                                <Card className="col-span-1 text-primary-900 bg-white">
+                                    <CardImage
+                                        src="/4-asso.svg"
+                                        alt="Customizable Layouts image used."
+                                    />
+                                </Card>
+                            </CardGroup>
+                        </SectionContainer>
+                    </MotionBTTContainer>
                     {/* <MotionBTTContainer
                         transition={{ delay: 0.2, duration: 0.5 }}
                     >
