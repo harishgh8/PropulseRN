@@ -1,25 +1,27 @@
 import { Layout } from "@components/Layout";
 import { SectionContainer } from "@components/Section";
-import { BadgeMessage, BadgeGroup, BadgeIcon } from "@components/Badge";
-
-import Link from "next/link";
-import Image from "next/image";
 import { MotionBTTContainer } from "@components/Motion";
 import { PageTitle } from "@components/Title";
-import { Content } from "@components/Content";
-import {
-    CardBody,
-    CardGroup,
-    CardHeader,
-    CardImage,
-    Card
-} from "@components/Card";
+import { useState } from "react";
+
 export default function Gallery() {
-    // Example blog posts data
+    // Array of image paths
+    const images = [
+        "/galleryData/G1.jpeg",
+        "/galleryData/G2.jpeg",
+        "/galleryData/G3.jpeg",
+        "/galleryData/G4.jpeg",
+        "/galleryData/G5.jpeg"
+    ];
+
+    const [selectedImage, setSelectedImage] = useState(null);
+
+    // Function to close the modal
+    const closeModal = () => setSelectedImage(null);
 
     return (
-        <Layout className="">
-            <div className="main-wrapper bg-[#F3F5F8] relative z-10 pb-20 pt-20 ">
+        <Layout>
+            <div className="main-wrapper bg-[#F3F5F8] relative z-10 pb-20 pt-20">
                 <SectionContainer className="page-banner--container py-16">
                     <SectionContainer className="page-banner--inner-container wrap wrap-px z-10">
                         <MotionBTTContainer
@@ -27,91 +29,64 @@ export default function Gallery() {
                         >
                             <div className="text-center">
                                 <PageTitle
-                                    className="text-center mx-auto bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% .. inline-block text-transparent bg-clip-text"
+                                    className="text-center mx-auto bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% inline-block text-transparent bg-clip-text"
                                     type="heavy"
                                 >
-                                    Welcome to ecoGenie Biotech
+                                    Awards and Recognitions
                                 </PageTitle>
                             </div>
                         </MotionBTTContainer>
-                        {/* Appear Third */}
+
                         <MotionBTTContainer
                             transition={{ delay: 0.6, duration: 0.5 }}
                         >
-                            <Content
-                                className="text-left text-lg"
-                                alignment="center"
-                            >
-                                <SectionContainer className="feature-tabs">
-                                    <PageTitle
-                                        className="text-center mx-auto !text-4xl"
-                                        type="heavy"
-                                    >
-                                        Awards and Recognitions
-                                    </PageTitle>
-                                    <CardGroup className="grid  gap-8 grid-cols-1 max-w-2xl mx-auto mt-12 md:grid-cols-2">
-                                        <Card className="col-span-1 text-primary-900">
-                                            <CardBody className="w-full  p-2">
-                                                <CardImage
-                                                    src="/startupindia.svg"
-                                                    alt="Customizable Layouts image used."
-                                                />
-
-                                                <p className="text-sm">
-                                                    Recognized from startup
-                                                    india
-                                                </p>
-                                            </CardBody>
-                                        </Card>
-                                        <Card className="col-span-1 text-primary-900">
-                                            <CardBody className="w-full  p-2">
-                                                <CardImage
-                                                    src="/startupkar.svg"
-                                                    alt="Customizable Layouts image used."
-                                                />
-
-                                                <p className="text-sm">
-                                                    Recognized from startup
-                                                    Karnataka
-                                                </p>
-                                            </CardBody>
-                                        </Card>
-                                        <Card className="col-span-1 text-primary-900">
-                                            <CardBody className="w-full  p-2">
-                                                <CardImage
-                                                    src="/wadwani.svg"
-                                                    alt="Customizable Layouts image used."
-                                                />
-                                                {/* <CardHeader className="!text-black !text-lg !font-bold">
-                                                    Startup India
-                                                </CardHeader> */}
-                                                <p className="text-sm">
-                                                    Mentorship from Wadhwani
-                                                    Foundation
-                                                </p>
-                                            </CardBody>
-                                        </Card>
-                                        <Card className="col-span-1 text-primary-900">
-                                            <CardBody className="w-full  p-2">
-                                                <CardImage
-                                                    src="/elevate.svg"
-                                                    alt="Customizable Layouts image used."
-                                                />
-                                                {/* <CardHeader className="!text-black !text-lg !font-bold">
-                                                    Startup India
-                                                </CardHeader> */}
-                                                <p className="text-sm">
-                                                    Awarded ELEVATE 2023 grants
-                                                    from startup karnataka
-                                                </p>
-                                            </CardBody>
-                                        </Card>
-                                    </CardGroup>
-                                </SectionContainer>
-                            </Content>
+                            <SectionContainer className="feature-tabs">
+                                {/* Gallery Grid */}
+                                <div className="grid gap-4 grid-cols-1 md:grid-cols-3 mt-12 max-w-4xl mx-auto">
+                                    {images.map((image, index) => (
+                                        <div
+                                            key={index}
+                                            className="cursor-pointer relative"
+                                            onClick={() =>
+                                                setSelectedImage(image)
+                                            }
+                                        >
+                                            <img
+                                                src={image}
+                                                alt={`Gallery image ${
+                                                    index + 1
+                                                }`}
+                                                className="w-full h-auto rounded-lg shadow-lg hover:opacity-80 transition"
+                                            />
+                                        </div>
+                                    ))}
+                                </div>
+                            </SectionContainer>
                         </MotionBTTContainer>
                     </SectionContainer>
                 </SectionContainer>
+
+                {/* Image Modal */}
+                {selectedImage && (
+                    <div
+                        className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-70"
+                        onClick={closeModal}
+                    >
+                        <div className="relative">
+                            <img
+                                src={selectedImage}
+                                alt="Selected"
+                                className="max-w-full max-h-screen rounded-lg"
+                            />
+                            <button
+                                className="absolute top-4 right-4 text-white bg-black bg-opacity-50 rounded-full p-2 focus:outline-none"
+                                onClick={closeModal}
+                            >
+                                ✕
+                            </button>
+                        </div>
+                    </div>
+                )}
             </div>
         </Layout>
     );

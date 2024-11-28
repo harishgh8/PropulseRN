@@ -30,7 +30,7 @@ export default function About() {
                                     className="text-center mx-auto bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% .. inline-block text-transparent bg-clip-text"
                                     type="heavy"
                                 >
-                                    Welcome to ecoGenie Biotech
+                                    About us
                                 </PageTitle>
                             </div>
                         </MotionBTTContainer>
@@ -43,24 +43,20 @@ export default function About() {
                                 alignment="center"
                             >
                                 <p>
-                                    Welcome to ecoGenie Biotech, where
-                                    innovation meets sustainability in the field
-                                    of biotechnology for agriculture and
-                                    post-harvest crop management. Based in the
-                                    vibrant city of Bengaluru, India, we are
-                                    dedicated to revolutionizing the way we
-                                    interact with the environment through our
-                                    eco-friendly solutions.
+                                    Ecogenie Biotech is a Bengaluru based
+                                    company dedicated to transforming silkworm
+                                    pupae waste into valuable, sustainable
+                                    biomaterials. With a focus on chitosan,
+                                    pupal oil, and pupal protein hydrolysates,
+                                    we harness the potential of waste silkworm
+                                    pupae to produce high-quality, eco-friendly
+                                    products.
                                 </p>
                                 <p>
-                                    At ecoGenie Biotech, our mission is clear:
-                                    to pave the way for a better future for our
-                                    planet by offering products that minimize
-                                    harm to the environment. Our motto,
-                                    &quot;Innovating greener tomorrow,&quot;
-                                    encapsulates our dedication to
-                                    sustainability and the collaborative effort
-                                    required to achieve it.
+                                    Our company is committed to supporting
+                                    farmers with innovative technologies that
+                                    promote sustainability and contribute to the
+                                    circular economy.
                                 </p>
                                 <p>
                                     We understand that sustainability is a
@@ -71,26 +67,24 @@ export default function About() {
                                     partners to foster positive change.
                                 </p>
                                 <p>
-                                    Central to our ethos is the belief that
-                                    every choice we make matters. From the
-                                    materials we source to our manufacturing
-                                    processes, we prioritize sustainability
-                                    every step of the way. Our products are
-                                    thoughtfully designed to be reusable,
-                                    recyclable, and compostable, ensuring they
-                                    leave a minimal footprint on the planet.
+                                    Our product line features a wide range of
+                                    chitosan-based applications across various
+                                    industries, including healthcare, food
+                                    preservation, agriculture, and cosmetics. We
+                                    specialize in developing wound care
+                                    dressings and related healthcare products
+                                    that utilize the unique properties of
+                                    chitosan for enhanced healing and skin
+                                    protection.
                                 </p>
                                 <p>
-                                    By harnessing the power of biotechnology, we
-                                    aim to create innovative solutions that not
-                                    only enhance agricultural productivity but
-                                    also protect our natural resources for
-                                    future generations. Together, let&apos;s
-                                    embark on a journey towards a greener, more
-                                    sustainable future. Join us at ecoGenie
-                                    Biotech, where we&apos;re turning vision
-                                    into reality, one eco-friendly solution at a
-                                    time.
+                                    By combining cutting-edge technology with a
+                                    deep commitment to sustainability, Ecogenie
+                                    Biotech is positioning itself as a leader in
+                                    the chitosan market, with a mission to
+                                    create a positive environmental impact while
+                                    delivering high-quality, innovative products
+                                    for diverse industries.
                                 </p>
                             </Content>
                         </MotionBTTContainer>

@@ -1,23 +1,12 @@
-import { BadgeMessage, BadgeGroup, BadgeIcon } from "@components/Badge";
-import { SectionContainer } from "@components/Section";
-import { PageTitle } from "@components/Title";
-import { Layout } from "@components/Layout";
 import { HomeBanner } from "@components/Banner";
-import { Columns } from "@components/Columns";
-import { ContentImage } from "@components/ContentImage";
+import { Card, CardGroup, CardImage } from "@components/Card";
 import { Content } from "@components/Content";
-import { Accordion } from "@components/Accordion";
+import { ContentImage } from "@components/ContentImage";
+import { Layout } from "@components/Layout";
 import { MotionBTTContainer } from "@components/Motion";
+import { SectionContainer } from "@components/Section";
 import SEO from "@components/SEO/SEO";
-import { accordionData, faqData } from "@components/Accordion/accordionData";
-import {
-    CardBody,
-    CardGroup,
-    CardHeader,
-    CardImage,
-    Card
-} from "@components/Card";
-import ScrollToTopBtn from "@components/ScrollToTopBtn";
+import { PageTitle } from "@components/Title";
 
 export default function Home() {
     return (
@@ -132,7 +121,7 @@ export default function Home() {
                                 </Card>
                                 <Card className="col-span-1 text-primary-900 bg-white">
                                     <CardImage
-                                        src="/4-asso.svg"
+                                        src="/iimb-nsrcel.png"
                                         alt="Customizable Layouts image used."
                                     />
                                 </Card>
