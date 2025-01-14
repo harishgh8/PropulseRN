@@ -119,12 +119,7 @@ export default function Home() {
                                         alt="Customizable Layouts image used."
                                     />
                                 </Card>
-                                <Card className="col-span-1 text-primary-900 bg-white">
-                                    <CardImage
-                                        src="/iimb-nsrcel.png"
-                                        alt="Customizable Layouts image used."
-                                    />
-                                </Card>
+                              
                             </CardGroup>
                         </SectionContainer>
                     </MotionBTTContainer>
